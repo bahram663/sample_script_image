@@ -1,4 +1,5 @@
 FROM alpine
 
 ADD . /
-CMD /bin/sh "/script.sh"
+RUN apk add --update coreutils && rm -rf /var/cache/apk/*
+CMD apt install date && /bin/sh "/script.sh"
