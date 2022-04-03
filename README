@@ -1,3 +1,9 @@
-1. "git clone https://github.com/bahram663/sample_script_image.git".
+For start this script just follow these steps.
+
+
+1. git clone https://github.com/bahram663/sample_script_image.git.
 2. docker build  -t <appname:tag> .
 3. docker run <appname:tag> .
+
+
+
